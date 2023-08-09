@@ -23,7 +23,7 @@ public class GooglePageTest {
 		driver.navigate().back();
 		// driver.navigate().forward();
 		System.out.println("Backward Page Title   " + driver.getTitle() );
-		// driver.close();
+		 driver.close();
 		
 	}
 
