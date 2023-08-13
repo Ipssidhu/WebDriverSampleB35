@@ -27,9 +27,12 @@ public class GooglePageTest {
 		System.out.println("Backward Page Title   " + driver.getTitle() );
 		 driver.close(); 
 		 */
+		
 		srcBox.sendKeys("Java Tutorial");
-		Thread.sleep(2000);
-		List<WebElement> items = driver.findElements(By.xpath("(//ul[@class='G43f7e'])[1]//li//descendant::div[@class='wM6W7d']"));
+		srcBox.clear();
+	/*	Thread.sleep(2000);
+		List<WebElement> items = driver.findElements
+				(By.xpath("(//ul[@class='G43f7e'])[1]//li//descendant::div[@class='wM6W7d']"));
 		System.out.println(" no.of items ...." + items.size());
 		for(int i=0; i<items.size(); i++)
 		{ 
@@ -40,7 +43,7 @@ public class GooglePageTest {
 				items.get(i).submit();
 			break;
 			}
-		}
+		} */
 	}
 
 }
