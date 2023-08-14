@@ -17,6 +17,8 @@ public class DropdownTest {
 		Select mulSel= new Select(driver.findElement(By.id("multi-select")));
 		mulSel.selectByVisibleText("Texas");
 		
+		// ul.nav navbar-nav
+		
 	
 	}
 	
