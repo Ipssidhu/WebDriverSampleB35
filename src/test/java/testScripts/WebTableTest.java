@@ -35,7 +35,7 @@ public class WebTableTest {
 	    	System.out.println(items.get(i).getText());
 	    } 
 	    // navigate to page 2 and find emp living in san franicso
-	    driver.findElement(By.xpath("//a[@data-dt-idx='2']")).click();
+	  /*  driver.findElement(By.xpath("//a[@data-dt-idx='2']")).click();
 	    
 	    List<WebElement> items1 = driver.findElements(
 	    		By.xpath("//td[contains(text(), 'Francisco')]//preceding-sibling::td[2]"));
@@ -45,7 +45,7 @@ public class WebTableTest {
 	    {
 	    	System.out.println(items1.get(i).getText());
 	    } 
-	    
+	     */
 	}
 
 }

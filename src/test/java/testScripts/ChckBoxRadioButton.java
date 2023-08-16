@@ -21,10 +21,10 @@ public class ChckBoxRadioButton {
 	    } */
 		
 		// radiobutton
-      /*
+      
 		driver.navigate().to("http://demo.seleniumeasy.com/basic-radiobutton-demo.html");
 	    driver.findElement(By.xpath("//input[@value='5 - 15']")).click();
-	   */
+	   
 		
 	      
 	    
