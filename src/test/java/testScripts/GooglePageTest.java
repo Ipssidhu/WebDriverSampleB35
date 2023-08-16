@@ -15,6 +15,7 @@ public class GooglePageTest {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+	//	driver.manage().timeouts().pageLoadTimeout(10);
 		// ChromeDriver driver1= new ChromeDriver();
 		driver.navigate().to("https://www.google.com/");
 	//	WebElement srcBox= driver.findElement(By.id("APjFqB"));
